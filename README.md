@@ -4,10 +4,10 @@ Astro plugin generating Markdown documentation from a GraphQL schema. This plugi
 
 ## Usage
 
-1. Install the plugin with the package manager of your choice.
+1. Install the plugin with the package manager of your choice. For example:
 
    ```
-   pnpm add @interledger/astro-graphql-plugin
+   pnpm add astro-graphql-plugin
    ```
 
 2. Add the plugin to `astro.config.mjs` and configure what the source schema, output directory and link prefix (for internal links generated to the output markdown). If you have multiple schemas, define them separately.
