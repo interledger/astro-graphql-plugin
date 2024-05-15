@@ -183,7 +183,7 @@ export const unions = {
 };
 
 export const inputObjects = {
-  id: "inputObjects",
+  id: "inputobjects",
   title: "Input objects",
   matches(type: GraphQLNamedType): boolean {
     return isInputObjectType(type);
