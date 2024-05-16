@@ -1,6 +1,6 @@
 {
   "name": "astro-graphql-plugin",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "type": "module",
   "exports": {
     ".": "./src/index.ts"
@@ -24,7 +24,7 @@
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
     "@types/marked": "5.0.2",
-    "astro": "^4.6.4",
+    "astro": "^4.8.4",
     "graphql": "16.8.1",
     "typescript": "^5.4.5"
   },

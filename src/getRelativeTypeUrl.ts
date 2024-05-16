@@ -4,11 +4,10 @@ import {
   isListType,
   isNonNullType,
 } from "graphql";
-import Slugger from "github-slugger";
+import { slug } from "github-slugger";
 import * as converters from "./converters";
 
-const slugger = new Slugger();
-const sluggify = (name: string) => slugger.slug(name);
+const sluggify = (name: string) => slug(name);
 
 function getBaseType(type: GraphQLType): GraphQLNamedType {
   if (isNonNullType(type)) {
