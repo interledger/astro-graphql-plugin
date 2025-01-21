@@ -16,7 +16,9 @@ export default function GraphQL(options): AstroIntegration {
   return {
     name: "astro-graphql-plugin",
     hooks: {
-      "astro:build:start": async () => {
+      "astro:config:setup": async ({ command }) => {
+        // Ignore when running in preview mode.
+        if (command === 'preview') return
         const schema = await loadSchema(options.schema, {
           loaders: [
             new UrlLoader(),
