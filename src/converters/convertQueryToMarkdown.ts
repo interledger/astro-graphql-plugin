@@ -1,4 +1,4 @@
-import { GraphQLField } from "graphql";
+import { type GraphQLField } from "graphql";
 import type { MarkdownConverterOptions } from "../types";
 import { escapeSpecialCharacters } from "./parseMarkdown";
 import { pushArguments } from "./pushArguments";

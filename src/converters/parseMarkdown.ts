@@ -1,4 +1,4 @@
-import { Token, marked } from "marked";
+import { type Token, marked } from "marked";
 
 export function escapeSpecialCharacters(str: string): string {
   return str.replace(/\{/g, "&#123;").replace(/\}/g, "&#125;");

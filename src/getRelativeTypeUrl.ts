@@ -1,6 +1,6 @@
 import {
-  GraphQLNamedType,
-  GraphQLType,
+  type GraphQLNamedType,
+  type GraphQLType,
   isListType,
   isNonNullType,
 } from "graphql";
