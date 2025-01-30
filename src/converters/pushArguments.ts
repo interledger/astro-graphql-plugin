@@ -1,4 +1,4 @@
-import { GraphQLArgument, GraphQLInputField } from "graphql";
+import { type GraphQLArgument, type GraphQLInputField } from "graphql";
 import type { MarkdownConverterOptions } from "../types";
 import { escapeSpecialCharacters, parseMarkdown } from "./parseMarkdown";
 

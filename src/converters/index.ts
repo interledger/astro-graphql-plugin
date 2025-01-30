@@ -2,7 +2,7 @@ import {
   GraphQLEnumType,
   GraphQLInputObjectType,
   GraphQLInterfaceType,
-  GraphQLNamedType,
+  type GraphQLNamedType,
   GraphQLObjectType,
   GraphQLScalarType,
   GraphQLSchema,

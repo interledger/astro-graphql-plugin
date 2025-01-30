@@ -10,7 +10,11 @@ import { JsonFileLoader } from "@graphql-tools/json-file-loader";
 import * as converters from "./converters";
 import { getRelativeTypeUrl } from "./getRelativeTypeUrl";
 
-export default function GraphQL(options): AstroIntegration {
+export default function GraphQL(options: {
+  schema: string,
+  output: string,
+  linkPrefix: string,
+}): AstroIntegration {
   // See the Integration API docs for full details
   // https://docs.astro.build/en/reference/integrations-reference/
   return {
